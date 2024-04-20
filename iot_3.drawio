@@ -1,0 +1,104 @@
+<mxfile host="app.diagrams.net" modified="2024-01-16T17:53:18.501Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="TrNFQdoit-YZ-PhP6okB" version="22.1.18" type="device">
+  <diagram name="Page-1" id="v8Cf7UUNC1cB-6PyrZZn">
+    <mxGraphModel dx="1026" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="A-_ld4Vz7WOVjv-cqHMy-1" value="Blynk App" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="965" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A-_ld4Vz7WOVjv-cqHMy-3" value="Blynk Server" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="962.5" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A-_ld4Vz7WOVjv-cqHMy-4" value="Node MCU ESP8266" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="611.25" y="290" width="142.5" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A-_ld4Vz7WOVjv-cqHMy-5" value="Buzzer" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
+          <mxGeometry x="335" y="400" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="A-_ld4Vz7WOVjv-cqHMy-6" value="LED" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="622.5" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A-_ld4Vz7WOVjv-cqHMy-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;strokeWidth=2;entryX=0.158;entryY=0.275;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="A-_ld4Vz7WOVjv-cqHMy-4" target="A-_ld4Vz7WOVjv-cqHMy-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1022.5" y="580" as="sourcePoint" />
+            <mxPoint x="942.5" y="313" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A-_ld4Vz7WOVjv-cqHMy-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.1;exitY=0.7;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=2;exitPerimeter=0;" parent="1" source="A-_ld4Vz7WOVjv-cqHMy-3" target="A-_ld4Vz7WOVjv-cqHMy-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="935.46" y="346" as="sourcePoint" />
+            <mxPoint x="1001.5" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A-_ld4Vz7WOVjv-cqHMy-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;exitX=0.31;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="A-_ld4Vz7WOVjv-cqHMy-3" target="A-_ld4Vz7WOVjv-cqHMy-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1002.5" y="420" as="sourcePoint" />
+            <mxPoint x="1012.5" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A-_ld4Vz7WOVjv-cqHMy-12" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.8;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="A-_ld4Vz7WOVjv-cqHMy-1" target="A-_ld4Vz7WOVjv-cqHMy-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1058.5" y="540" as="sourcePoint" />
+            <mxPoint x="1052.5" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A-_ld4Vz7WOVjv-cqHMy-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="A-_ld4Vz7WOVjv-cqHMy-4" target="A-_ld4Vz7WOVjv-cqHMy-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="816" y="463" as="sourcePoint" />
+            <mxPoint x="1035" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A-_ld4Vz7WOVjv-cqHMy-18" value="Gửi kết quả thẻ từ hợp lệ/không hợp lệ về server, gửi trạng thái cửa mở/khoá" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="785" y="240" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A-_ld4Vz7WOVjv-cqHMy-19" value="Gửi dữ liệu về trạng thái mở khoá của thẻ từ về mạch và gửi tín hiệu mở/khoá cửa từ xa" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="775.63" y="360" width="168.75" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A-_ld4Vz7WOVjv-cqHMy-20" value="Hiển thị nhật ký quẹt thẻ từ của hệ thống và trạng thái mở khoá của thẻ" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="840" y="450" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A-_ld4Vz7WOVjv-cqHMy-21" value="Thay đổi trạng thái mở khoá của thẻ từ và gửi về server, mở/khoá cửa từ xa" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="1070" y="405" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A-_ld4Vz7WOVjv-cqHMy-28" value="RFID RC522" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b0e3e6;strokeColor=#0e8088;" parent="1" vertex="1">
+          <mxGeometry x="340" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="A-_ld4Vz7WOVjv-cqHMy-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeWidth=2;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="A-_ld4Vz7WOVjv-cqHMy-28" target="A-_ld4Vz7WOVjv-cqHMy-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="502.5" y="330" as="sourcePoint" />
+            <mxPoint x="622.5" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A-_ld4Vz7WOVjv-cqHMy-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" parent="1" source="A-_ld4Vz7WOVjv-cqHMy-4" target="A-_ld4Vz7WOVjv-cqHMy-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="975.5" y="630" as="sourcePoint" />
+            <mxPoint x="800.5" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A-_ld4Vz7WOVjv-cqHMy-31" value="Relay Module&lt;br&gt;(Solenoid Lock)" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+          <mxGeometry x="637.5" y="10" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="A-_ld4Vz7WOVjv-cqHMy-33" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="A-_ld4Vz7WOVjv-cqHMy-4" target="A-_ld4Vz7WOVjv-cqHMy-31" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="512.5" y="340" as="sourcePoint" />
+            <mxPoint x="632.5" y="340" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="A-_ld4Vz7WOVjv-cqHMy-34" value="Hiển thị đèn LED xanh hoặc đỏ dựa theo kết quả quẹt thẻ từ" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="540" y="450" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A-_ld4Vz7WOVjv-cqHMy-35" value="Kích hoạt buzzer dựa theo kết quả quẹt thẻ từ" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="440" y="310" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A-_ld4Vz7WOVjv-cqHMy-36" value="Đọc dữ liệu thẻ từ và gửi giá trị thẻ về mạch" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="510" y="170" width="102.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="A-_ld4Vz7WOVjv-cqHMy-37" value="Kích hoạt relay để mở khoá cửa cho thẻ từ hợp lệ" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="700" y="140" width="100" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

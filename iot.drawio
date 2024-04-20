@@ -1,0 +1,124 @@
+<mxfile host="app.diagrams.net" modified="2023-11-19T15:29:08.616Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="yVFV1L4h0ZakEEs_FL55" version="21.6.8" type="device">
+  <diagram name="Page-1" id="v8Cf7UUNC1cB-6PyrZZn">
+    <mxGraphModel dx="1026" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="h_-4YhCqwHQwcukxxj3B-1" value="Website" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="382.5" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h_-4YhCqwHQwcukxxj3B-2" value="&lt;br&gt;Database" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="710" y="360" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h_-4YhCqwHQwcukxxj3B-3" value="Server" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="380" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h_-4YhCqwHQwcukxxj3B-4" value="Arduino&lt;br&gt;ESP32" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="40" y="70" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h_-4YhCqwHQwcukxxj3B-5" value="Notification Service" style="ellipse;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="77.5" y="360" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h_-4YhCqwHQwcukxxj3B-6" value="Điện thoại" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="82.5" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h_-4YhCqwHQwcukxxj3B-8" value="SMTP service" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="382.5" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h_-4YhCqwHQwcukxxj3B-9" value="Email" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
+          <mxGeometry x="707.5" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="h_-4YhCqwHQwcukxxj3B-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;strokeWidth=2;entryX=0.158;entryY=0.275;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="h_-4YhCqwHQwcukxxj3B-4" target="h_-4YhCqwHQwcukxxj3B-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="360" as="sourcePoint" />
+            <mxPoint x="360" y="93" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_-4YhCqwHQwcukxxj3B-11" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.1;exitY=0.7;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=2;exitPerimeter=0;" edge="1" parent="1" source="h_-4YhCqwHQwcukxxj3B-3" target="h_-4YhCqwHQwcukxxj3B-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="352.96000000000004" y="126" as="sourcePoint" />
+            <mxPoint x="419" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_-4YhCqwHQwcukxxj3B-12" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;exitX=0.25;exitY=0.825;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="h_-4YhCqwHQwcukxxj3B-3" target="h_-4YhCqwHQwcukxxj3B-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="200" as="sourcePoint" />
+            <mxPoint x="430" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_-4YhCqwHQwcukxxj3B-13" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.8;entryY=0.8;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="h_-4YhCqwHQwcukxxj3B-1" target="h_-4YhCqwHQwcukxxj3B-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="476" y="320" as="sourcePoint" />
+            <mxPoint x="470" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_-4YhCqwHQwcukxxj3B-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="h_-4YhCqwHQwcukxxj3B-1" target="h_-4YhCqwHQwcukxxj3B-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="233.5" y="243" as="sourcePoint" />
+            <mxPoint x="452.5" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_-4YhCqwHQwcukxxj3B-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="h_-4YhCqwHQwcukxxj3B-5" target="h_-4YhCqwHQwcukxxj3B-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="243.5" y="253" as="sourcePoint" />
+            <mxPoint x="462.5" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_-4YhCqwHQwcukxxj3B-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=2;" edge="1" parent="1" source="h_-4YhCqwHQwcukxxj3B-1" target="h_-4YhCqwHQwcukxxj3B-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="253.5" y="263" as="sourcePoint" />
+            <mxPoint x="472.5" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_-4YhCqwHQwcukxxj3B-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="h_-4YhCqwHQwcukxxj3B-1" target="h_-4YhCqwHQwcukxxj3B-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="263.5" y="273" as="sourcePoint" />
+            <mxPoint x="482.5" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_-4YhCqwHQwcukxxj3B-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="h_-4YhCqwHQwcukxxj3B-8" target="h_-4YhCqwHQwcukxxj3B-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="273.5" y="283" as="sourcePoint" />
+            <mxPoint x="492.5" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_-4YhCqwHQwcukxxj3B-19" value="Gửi các giá trị về mực nước, nhiệt độ, độ ẩm và độ pH nước cho server" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="202.5" y="20" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h_-4YhCqwHQwcukxxj3B-20" value="Gửi các tín hiệu bơm nước tự động hoặc thủ công, điều chỉnh mực nước tối thiểu, giá trị tối thiểu của nhiệt độ, độ ẩm và độ pH nước" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="172.5" y="140" width="210" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="h_-4YhCqwHQwcukxxj3B-21" value="Thông tin về mực nước, nhiệt độ, độ ẩm và độ pH nước được hiển thị trên giao diện web" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="260" y="260" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="h_-4YhCqwHQwcukxxj3B-22" value="Người dùng thay đổi chế độ bơm nước hoặc điều chỉnh các ngưỡng về mực nước, nhiệt độ, độ ẩm, độ pH nước" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="490" y="230" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="h_-4YhCqwHQwcukxxj3B-24" value="Gửi tín hiệu cảnh báo về mực nước, nhiệt độ, độ ẩm và độ pH nước khi chạm ngưỡng" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="260" y="450" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="h_-4YhCqwHQwcukxxj3B-25" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=0.443;exitY=-0.014;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="h_-4YhCqwHQwcukxxj3B-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="450" as="sourcePoint" />
+            <mxPoint x="322" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_-4YhCqwHQwcukxxj3B-27" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;exitX=1.021;exitY=0.414;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="h_-4YhCqwHQwcukxxj3B-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="332" y="459" as="sourcePoint" />
+            <mxPoint x="440" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h_-4YhCqwHQwcukxxj3B-28" value="Gửi thông báo đến người dùng" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="20" y="470" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="h_-4YhCqwHQwcukxxj3B-29" value="Gửi cảnh báo bằng email đến người dùng" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="540" y="610" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="h_-4YhCqwHQwcukxxj3B-30" value="Toàn bộ dữ liệu về mực nước, nhiệt độ, độ ẩm, độ pH nước và các cảnh báo được lưu lại" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="520" y="410" width="170" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
